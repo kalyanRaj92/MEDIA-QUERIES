@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    min-height: 100vh;
+}
+
+.pricing-plans-container {
+    width: 90%;
+    max-width: 1100px;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: #ff6e30;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: #2c353d;
+    width: 280px;
+    border-radius: 16px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 32px;
+    flex-shrink: 0;
+}
+
+.image {
+    width: 34px;
+    height: 34px;
+    align-self: flex-end;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.duration {
+    color: #e2e8f0;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #e2e8f0;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list {
+    padding-left: 24px;
+    flex-grow: 1;
+}
+
+.item {
+    color: #f8fafc;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.button {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #2d3748;
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+}
+
+.button1 {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #ff6e30;
+}
+
+.business-plan-button {
+    color: #fff;
+    background-color: #ff6e30;
+}

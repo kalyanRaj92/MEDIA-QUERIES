@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: content-box;
+    margin: 0px;
+}
+
+.bg-container {
+    min-height: 100vh;
+    background-color: #2b5489;
+}
+
+.technology-trends {
+    width: 85%;
+    max-width: 680px;
+}
+
+.heading {
+    text-align:center ;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+   padding: 15px;
+}
+
+.technology {
+    font-family: "Roboto";
+    font-size: 16px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    list-style-type: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.technology-1 {
+    color: #1172c4;
+    border: 2px solid #1172c4;
+}
+
+.technology-2 {
+    color: #01020f;
+    border: 2px solid #01020f;
+}
+
+.technology-3 {
+    color: #00aeef;
+    border: 2px solid #00aeef;
+}
+
+.technology-4 {
+    color: #664e96;
+    border: 2px solid #664e96;
+}
+
+.technology-5 {
+    color: #43057d;
+    border: 2px solid #43057d;
+}
+
+.technology-6 {
+    color: #b50764;
+    border: 2px solid #b50764;
+}
+
+.technology-7 {
+    color: #0c8208;
+    border: 2px solid #0c8208;
+}
+
+.technology-8 {
+    color: #2414b5;
+    border: 2px solid #2414b5;
+}
+
+.technology-9 {
+    color: #d60b15;
+    border: 2px solid #d60b15;
+}
+
+.technology-trends-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

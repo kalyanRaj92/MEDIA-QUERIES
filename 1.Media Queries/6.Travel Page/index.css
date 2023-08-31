@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png");
+    background-size: cover;
+}
+
+.travel-container {
+    width: 90%;
+    max-width: 450px;
+}
+
+.heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+.paragraph {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.button {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 36px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.get-started-button {
+    color: #183b56;
+    background-color: #fff;
+    border: none;
+}
+
+.know-more-button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-top: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png");
+    }
+
+    .travel-container {
+        max-width: 600px;
+    }
+
+    .heading {
+        font-size: 45px;
+    }
+
+    .buttons-container {
+        flex-direction: row;
+        margin-top: 44px;
+    }
+
+    .get-started-button {
+        margin-right: 20px;
+    }
+
+    .know-more-button {
+        margin-top: 0px;
+    }
+}

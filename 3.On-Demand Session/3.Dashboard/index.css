@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    height: 100vh;
+    display: flex;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #002159;
+    flex-shrink: 0;
+    width: 230px;
+    padding: 10px;
+}
+
+.side-bar-title {
+    font-family: "Open Sans";
+    font-size: 26px;
+    color: #fff;
+    padding-left: 16px;
+    font-weight: 700;
+}
+
+.options-container {
+    flex-grow: 1;
+}
+
+.option-container {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+}
+
+.active-option {
+    background-color: #296eff;
+    border-radius: 4px;
+}
+
+.option-icon {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.option-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.profile-name {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #fff;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.content {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-left: 40px;
+    overflow-y: auto;
+}
+
+.section-title {
+    font-family: "Open Sans";
+    font-size: 36px;
+    color: #002159;
+}
+
+.category-title {
+    font-family: "Open Sans";
+    font-size: 24px;
+    color: #002159;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}

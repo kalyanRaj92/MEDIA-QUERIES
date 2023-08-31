@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.chasing-a-theif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    height: 100vh;
+    padding: 20px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.road-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.road-number {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.road {
+    display: flex;
+    background-image: url("https://assets.ccbp.in/frontend/content/intermediate-rwd/road.png");
+    background-size: cover;
+    width: 550px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.road-1 {
+    justify-content: flex-start;
+}
+
+.road-2 {
+    justify-content: center;
+}
+
+.road-3 {
+    justify-content: space-between;
+}
+
+.road-4 {
+    justify-content: space-around;
+}
+
+.road-5 {
+    justify-content: flex-end;
+}

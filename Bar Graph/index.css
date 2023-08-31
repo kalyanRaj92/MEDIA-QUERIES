@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.bar-graph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#6d5dff, #35b970);
+    height: 100vh;
+}
+
+.heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bar-graph-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.class-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.students-count {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    text-align: center;
+    background-color: #596ec1;
+    border-radius: 3px;
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.class {
+    color: #5f5c57;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.students-count-1 {
+    height: 350px;
+}
+
+.students-count-2 {
+    height: 200px;
+}
+
+.students-count-3 {
+    height: 250px;
+}
+
+.students-count-4 {
+    height: 300px;
+}
+
+.students-count-5 {
+    height: 150px;
+}
+
+.sub-heading {
+    font-style: italic;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.class-container-1 {
+    order: 5;
+}
+
+.class-container-2 {
+    order: 4;
+}
+
+.class-container-3 {
+    order: 3;
+}
+
+.class-container-4 {
+    order: 2;
+}
+
+.class-container-5 {
+    order: 1;
+}

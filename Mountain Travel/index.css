@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.company-name {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.nav-item {
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.bg-container {
+    height: 100vh;
+    background-image: url("https://assets.ccbp.in/frontend/content/intermediate-rwd/mountain-travel.png");
+    background-size: cover;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 60px;
+}
+
+.paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.button {
+    color: #ffffff;
+    font-family: "Roboto";
+    background-color: #0891b2;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.landing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-items-container{
+    display: flex;
+}

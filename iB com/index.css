@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.ibcom-container {
+    display: flex;
+    height: 100vh;
+}
+
+.teams {
+    color: #ffffff;
+    min-width: 180px;
+    background-color: #171927;
+    padding-top: 40px;
+}
+
+.team-heading {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.team-name {
+    font-family: "Roboto";
+    padding: 10px;
+    margin: 5px;
+    background-color: #f1f5f9;
+    border: none;
+    border-radius: 5px;
+}
+
+.messages {
+    background-color: #1b1e2f;
+    padding: 30px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-image {
+    width: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.user-name {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-left: 10px;
+}
+
+.user-message {
+    color: #f5f0f0;
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.teams-container {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+
+.messages-container {
+    flex-grow: 1;
+}
